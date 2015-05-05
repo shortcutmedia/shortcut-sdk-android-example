@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.scm.shortcutsdkexample" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".CameraActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.shortcutmedia.shortcut.sdk.API_KEY"
+            android:value="677795eb-4fba-4797-963d-2e455f7d08f6" />
+        <meta-data
+            android:name="com.shortcutmedia.shortcut.sdk.API_SECRET"
+            android:value="4NoTXkiaw4mLze0irkTuIg0KDj7D73er6v4lTvEm" />
+
+        <activity
+            android:name=".ScannerActivity"
+            android:label="@string/title_activity_scanner" >
+        </activity>
+    </application>
+
+</manifest>
