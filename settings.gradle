@@ -1,1 +1,1 @@
-include ':app', ':shortcut-sdk'
+include ':app'
