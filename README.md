@@ -6,7 +6,14 @@ This repo provides a demo app for the [Shortcut Android SDK](https://github.com/
 4. Import the SDK by selecting menu 'File' > 'New', 'Import Module...' and select the path to the downloaded directory with the SDK. 
 5. Make the SDK classes available to the project. Open 'File' > 'Project Structure' and select module 'app'. Switch to tab
 'Dependencies' and add _shortcutReaderSDK_ as a new "Module Dependency".
-6. [Request the demo keys](http://shortcutmedia.com/request_demo_keys.html) and add the declaration to your project's _Manifest.xml_ file. We will immediately send you an email with the keys.
+6. Add the keys below to your project's _Manifest.xml_ file.
+
+```script
+DEMO_API_KEY = 677795eb-4fba-4797-963d-2e455f7d08f6
+DEMO_API_SECRET = 4NoTXkiaw4mLze0irkTuIg0KDj7D73er6v4lTvEm
+```
+
+With these keys you are able to scan the [Lenna test image](https://en.wikipedia.org/wiki/Lenna).
 
 ```xml
 <manifest ... >
@@ -16,7 +23,6 @@ This repo provides a demo app for the [Shortcut Android SDK](https://github.com/
   </application>
 <manifest>
 ```
-With these keys you are able to scan the [Lenna test image](https://en.wikipedia.org/wiki/Lenna).
 
 To be able to recognize your own items you need to add your own access key and secret token in the _Manifest.xml_ file. You can get your keys by emailing support@shortcutmedia.com.
 
