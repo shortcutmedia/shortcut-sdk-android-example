@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ShortcutSDKExample.iml" filepath="$PROJECT_DIR$/ShortcutSDKExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shortcut-sdk-android/shortcut-sdk-android.iml" filepath="$PROJECT_DIR$/shortcut-sdk-android/shortcut-sdk-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shortcut-sdk-android-example.iml" filepath="$PROJECT_DIR$/shortcut-sdk-android-example.iml" />
     </modules>
   </component>
 </project>
