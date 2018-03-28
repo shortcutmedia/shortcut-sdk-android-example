@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">ShortcutSDKExample</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_scanner">ScannerActivity</string>
-
+    <string name="app_name">ShortcutSDK demo</string>
+    <string name="camera_rationale">This app needs access to your camera so you can scan things.</string>
+    <string name="rationale_ask_ok">Ok</string>
+    <string name="rationale_ask_cancel">Cancel</string>
+    <string name="no_match">Not Recognized</string>
 </resources>
